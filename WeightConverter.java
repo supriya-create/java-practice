@@ -20,7 +20,7 @@ public class WeightConverter {
         else if(choice==2){
             System.out.print("Enter the weight in kgs: ");
             weight = sc.nextDouble();
-            newWeight = weight * 0.453592;
+            newWeight = weight * 2.20462;
             System.out.printf("The weight in lbs is %.2flbs.", newWeight);
         }
         else{
