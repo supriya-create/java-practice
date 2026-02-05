@@ -17,7 +17,7 @@ public class QuizGame {
         int score = 0;
 
         System.out.println("--------------------------");
-        System.out.println("Welcome to java quiz game");
+        System.out.println("Welcome to quiz game");
         System.out.println("--------------------------");
 
         for(int i=0;i<ques.length;i++){
