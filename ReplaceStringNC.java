@@ -9,6 +9,7 @@ import java.util.Scanner;
 public class ReplaceStringNC {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the inputs: ");
         String org = sc.nextLine();
         String rep = sc.nextLine();
         String add = sc.nextLine();
