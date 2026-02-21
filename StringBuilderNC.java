@@ -9,6 +9,7 @@ import java.util.Scanner;
 public class StringBuilderNC {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the inputs: ");
         String org = sc.nextLine();
         String sub = sc.nextLine();
         int pos = sc.nextInt();
