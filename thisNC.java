@@ -29,6 +29,7 @@ public class thisNC {
         Scanner scanner = new Scanner(System.in);
 
         String name = scanner.nextLine();
+        System.out.println("Enter the input: ");
         int id = scanner.nextInt();
 
         double salary = scanner.nextDouble();
