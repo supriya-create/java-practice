@@ -58,6 +58,7 @@ enum Shape{
 public class EnumNC {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the input: ");
         String type = sc.nextLine().toUpperCase();
         if(type.equals("TRIANGLE")){
             double b = sc.nextDouble();
