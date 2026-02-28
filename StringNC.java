@@ -15,10 +15,10 @@ public class StringNC {
         String input = sc.nextLine().trim();
         String[] words = input.split(" ");
         if(words.length==1){
-            System.out.println(process(words[0]));
+            System.out.println("Result: "+process(words[0]));
         }
         else if(words.length==2){
-            System.out.println(process(words[0], words[1]));
+            System.out.println("Result: "+process(words[0], words[1]));
         }
         else{
             System.out.println("Invalid input");
