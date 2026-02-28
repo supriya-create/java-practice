@@ -15,7 +15,7 @@ public class StringBuilderNC {
         int pos = sc.nextInt();
         StringBuilder sb =new StringBuilder(org);
         sb.insert(pos, sub);
-        System.out.println(sb.toString());
+        System.out.println("Result: "+sb.toString());
         sc.close();
     }
 }
