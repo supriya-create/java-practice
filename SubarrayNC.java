@@ -29,7 +29,7 @@ public class SubarrayNC {
             minglobal = Math.min(minglobal, mincurr);
         }
         if(total==minglobal){
-            System.out.println(total);
+            System.out.println("Total: "+total);
         }
         else{
             System.out.println(total-minglobal);
