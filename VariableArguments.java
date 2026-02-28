@@ -1,7 +1,7 @@
 public class VariableArguments {
     public static void main(String[] args){
-        System.out.println(sum(1,2,3,4,5,6));
-        System.out.print(average(1,2,3,4,5,6));
+        System.out.println("Sum: "+sum(1,2,3,4,5,6));
+        System.out.print("Average: "+average(1,2,3,4,5,6));
     }
 
     static int sum(int... num){
