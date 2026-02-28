@@ -10,7 +10,7 @@ public class DigitCount {
             num = num/10;
             count++;
         }
-        System.out.println("Number of digits present in number: "+count);
+        System.out.println("Number of digits present in number is: "+count);
         sc.close();
     }
 }
