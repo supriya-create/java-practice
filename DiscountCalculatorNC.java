@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class DiscountCalculatorNC {
     int b;
     int d;
+    
     {
         Scanner sc = new Scanner(System.in);
         b = sc.nextInt();
@@ -16,6 +17,7 @@ public class DiscountCalculatorNC {
         return b*d/100;
     }
     public static void main(String[] args) {
+        System.out.println("Enter the inputs: ");
         DiscountCalculatorNC discountCalculator = new DiscountCalculatorNC();
         double discountedPrice = discountCalculator.calculateDiscountedPrice();
         double amountSaved = discountCalculator.calculateAmountSaved();
