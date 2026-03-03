@@ -8,5 +8,7 @@ public class ConstructorOverloading {
     public static void main(String[] args) {
         ConstructorOverloading c1 = new ConstructorOverloading();
         ConstructorOverloading c2 = new ConstructorOverloading(10);
+        System.out.println(c1);
+        System.out.println(c2);
     }
 }
