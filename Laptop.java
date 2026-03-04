@@ -11,5 +11,8 @@ public class Laptop {
     public static void main(String[] args){
         Laptop l1 = new Laptop();
         Laptop l2 = new Laptop();
+
+        l1.setData("HP", 8);
+        l2.setData("Dell", 16);
     }
 }
