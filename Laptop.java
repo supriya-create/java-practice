@@ -14,5 +14,8 @@ public class Laptop {
 
         l1.setData("HP", 8);
         l2.setData("Dell", 16);
+
+        l1.display();
+        l2.display();
     }
 }
