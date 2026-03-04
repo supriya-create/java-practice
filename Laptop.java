@@ -5,4 +5,7 @@ public class Laptop {
         brand = b;
         ram = r;
     }
+     void display() {
+        System.out.println(brand + " " + ram + "GB");
+    }
 }
