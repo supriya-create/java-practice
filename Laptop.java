@@ -9,6 +9,7 @@ public class Laptop {
         System.out.println(brand + " " + ram + "GB");
     }
     public static void main(String[] args){
-        
+        Laptop l1 = new Laptop();
+        Laptop l2 = new Laptop();
     }
 }
