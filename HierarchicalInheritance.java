@@ -19,7 +19,7 @@ public class HierarchicalInheritance {
         Circle c = new Circle();
 
         r.rectangle();
-        
+        r.display();
 
         c.circle();
         c.display();
