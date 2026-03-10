@@ -7,7 +7,6 @@ public class AreaOfRectangle {
         double height=0;
         double area=0;
 
-        System.out.print("Enter width: ");
         width = sc.nextDouble();
 
         System.out.print("Enter height: ");
