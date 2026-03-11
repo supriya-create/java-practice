@@ -7,7 +7,6 @@ public class AndNotOperator {
         int temp = 30;
         if(temp>15 && temp<40 || !isSunny){
             System.out.println("Weather is good!");
-            System.out.println("It's a cloudy weather");
         }
         else{
             System.out.println("Weather is good!");
