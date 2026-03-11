@@ -11,7 +11,6 @@ public class AndNotOperator {
         }
         else{
             System.out.println("Weather is good!");
-            System.out.println("It's a sunny weather");
         }
         sc.close();
     }
