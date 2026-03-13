@@ -18,6 +18,6 @@ public class MultilevelInheritance {
         ElectricCar e = new ElectricCar();
         e.start();
         e.drive();
-        
+        e.charge();
     }
 }
