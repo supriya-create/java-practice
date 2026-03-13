@@ -10,6 +10,7 @@ class Car extends Vehical{
 }
 class ElectricCar extends Car{
     void charge(){
+        System.out.println("Electric car charging");
     }
 }
 public class MultilevelInheritance {
