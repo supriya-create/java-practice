@@ -5,6 +5,7 @@ class Student extends Person{
     String course = "CSE";
     void display(){
         System.out.println(name);
+        System.out.println(course);
     }
 }
 public class MethodInheritance {
