@@ -11,7 +11,6 @@ class Student extends Person{
 public class MethodInheritance {
     public static void main(String[] args) {
         Student s = new Student();
-        s.display();
     }
 
 }
