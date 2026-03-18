@@ -16,6 +16,5 @@ public class Multithreading {
             System.out.println("Main thread was interrupted");
         }
 
-        System.out.println("GAME OVER!!");
     }
 }
