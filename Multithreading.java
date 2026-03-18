@@ -13,7 +13,6 @@ public class Multithreading {
             thread2.join();
         }
         catch(InterruptedException e){
-            System.out.println("Main thread was interrupted");
         }
 
         System.out.println("GAME OVER!!");
