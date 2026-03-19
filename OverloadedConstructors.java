@@ -20,8 +20,7 @@ public class OverloadedConstructors {
         System.out.println(user3.age);
         System.out.println();
 
-        System.out.println(user4.name);
-        System.out.println(user4.email);
+       
         System.out.println(user4.age);
         System.out.println();
 
