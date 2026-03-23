@@ -6,6 +6,9 @@ class Student{
         this.roll = roll;
     }
     public boolean equals(Object obj){
+        if(obj==this) return true;
+        if(obj==null || getClass()!=obj.getClass())
+            return false;
         Student s = (Student) obj;
         return this.roll == s.roll;
     }
